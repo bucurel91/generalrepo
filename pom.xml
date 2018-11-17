@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>groupId</groupId>
+    <artifactId>orangeHRMlive-atf-project</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>test-core</module>
+        <module>test-domain</module>
+    </modules>
+    <properties>
+        <cucumber.version>4.2.0</cucumber.version>
+        <selenium.version>3.12.0</selenium.version>
+        <junit.version>4.12</junit.version>
+        <lombok.version>1.18.2</lombok.version>
+        <logback-classic>1.2.3</logback-classic>
+        <slf4j.version>1.7.25</slf4j.version>
+        <java-hamcrest>2.0.0.0</java-hamcrest>
+        <commons-io>2.6</commons-io>
+    </properties>
+</project>
